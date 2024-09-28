@@ -1,5 +1,4 @@
 import React, { useState } from 'react'
-import background from '../../assets/backgroundfeedback.jpg'
 
 const Feedback = () => {
 
