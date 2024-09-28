@@ -12,11 +12,13 @@ import SportsWaterBottle from './components/Bottlecards/SportsWaterBottle'
 import JarBottles from './components/Bottlecards/JarBottles'
 import AddToCart from './components/Bottlecards/AddToCart'
 import Footer from './components/Home/Footer'
+import Login from './components/Loging/login'
+import Register from './components/Loging/Registration '
 
 const App = () => {
   return (
     <>
-    <div className='bg-gradient-to-r from-indigo-500 from-10% via-sky-500 via-30% to-emerald-500 pt-[100px]'>
+    <div className='bg-gradient-to-r from-indigo-500 from-10% via-sky-500 via-30% to-emerald-500 pt-[90px]'>
       <Navbar/>
       <Routes>
         <Route path='/' element={<Home/>}/>
@@ -29,6 +31,8 @@ const App = () => {
         <Route path='/sportswater'element={<SportsWaterBottle/>}/>
         <Route path='/jarbottle'element={<JarBottles/>}/>
         <Route path='/addtocart'element={<AddToCart/>}/>
+        <Route path='/login'element={<Login/>}/>
+        <Route path='/register'element={<Register/>}/>
       </Routes>
       <Footer/>
     </div>
