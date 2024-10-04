@@ -1,8 +1,7 @@
-# React + Vite
+# Shopping Pet Bot
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a shopping pet bot designed to enhance the shopping experience for users.
 
-Currently, two official plugins are available:
+## Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+[Click here](https://shoping-pet-bot.vercel.app/) to see the live demo of the bot.
