@@ -7,6 +7,7 @@ import jar5 from '../../assets/jar/5.jpg'
 import jar6 from '../../assets/jar/6.jpg'
 import jar7 from '../../assets/jar/7.jfif'
 import jar8 from '../../assets/jar/9.jpg'
+import { Link } from 'react-router-dom'
 
 const JarBottles = () => {
     const products =[
@@ -69,6 +70,12 @@ const JarBottles = () => {
                             <h2 className="text-xl font-semibold text-white">{product.name}</h2>
                             <p className="text-sm text-white mt-2 text-center">{product.des}</p>
                             <h4 className="mt-2 text-lg font-semibold text-white">{product.price}</h4>
+                           <Link to='/addtocart'><button 
+                                onClick={() => addToCart(product)}
+                                className="mt-2 px-4 py-2 bg-yellow-400 text-black rounded-lg"
+                            >
+                                Add to Cart
+                            </button></Link>
                         </div>
                     </div>
                 </div>
